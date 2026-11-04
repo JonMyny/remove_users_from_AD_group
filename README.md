@@ -1,6 +1,6 @@
 # remove_users_from_AD_group
 PowerShell script to remove users from list from an AD group
-# Remove-GroupUsers.ps1
+# Remove-ADGroupUsers.ps1
 
 A PowerShell script that removes all **user** members from a specified Active Directory group. It backs up the current membership to a CSV before making changes, supports a `-WhatIf` dry run, and reports any failures accurately.
 
